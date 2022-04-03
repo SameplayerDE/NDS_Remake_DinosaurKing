@@ -55,6 +55,7 @@ namespace NDS_Remake_DinosaurKing.Graphics
                 Textures.Add(croppedTexture);
                 data = null;
                 GC.Collect();
+                //funny
             }
         }
         
