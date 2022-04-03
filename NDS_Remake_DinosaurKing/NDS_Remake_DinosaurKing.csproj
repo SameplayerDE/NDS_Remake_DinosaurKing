@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="H073.Hx.HxGraphics" Version="1.0.2" />
+        <PackageReference Include="H073.Hx.HxManager" Version="1.0.3.1" />
+        <PackageReference Include="H073.Hx.HxTiled" Version="0.0.1" />
+        <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+        <PackageReference Include="MonoGame.Framework.WindowsDX" Version="3.8.0.1641" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="Content\Areas\*">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="Content\Lab_Tiles.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>
